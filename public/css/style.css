@@ -1,0 +1,74 @@
+
+/* Nav Icons for Navbar */
+.nav-icons  {
+    width: 100px;
+    height: 100px;
+}
+
+/* small icons */
+.icon-sm {
+    font-size: 2rem;
+}
+
+.image-sm {
+  object-fit: cover;
+  width: 2rem;
+  height: 2rem;
+}
+
+.background-image {
+    background-image: url('../backgrounds/6843497.jpg');
+    height: 100vh;
+}
+
+/* ADMIN */
+.admin-list {
+    list-style-type: none;
+    padding: 5px;
+    background-color: #094BCC;
+}
+
+.admin-dashboard-list {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 100vh;
+}
+
+.card-background {
+    opacity: 0.8;
+}
+
+/* sign in */
+html,
+body {
+  height: 100%;
+  background-image: url('../backgrounds/6843497.jpg');
+}
+main{
+  background-color:whitesmoke;
+}
+.form-signin {
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.req-image {
+  height: 7.5rem;
+  width: 7.5rem;
+  object-fit: cover;
+}
